@@ -8,6 +8,7 @@ interface IUser {
 }
 
 function App() {
+    //useState retorna um array, onde o primeiro item é uma variavel e o segundo uma função
     const [users, setUsers] = useState<IUser[]>([])
     useEffect(() => {
         // get recebe como parametro o tipo que sera inferido ao response.data
