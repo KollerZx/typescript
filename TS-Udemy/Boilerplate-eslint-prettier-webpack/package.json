@@ -6,7 +6,8 @@
   "author": "Henrique Koller <38964774+KollerZx@users.noreply.github.com>",
   "license": "MIT",
   "scripts": {
-      "dev": "webpack -w"
+      "dev": "webpack -w",
+      "build":"tsc"
   },
   "devDependencies": {
     "@types/node": "^16.4.10",
